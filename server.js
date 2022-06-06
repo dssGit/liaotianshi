@@ -56,7 +56,7 @@ function changeUserList() {
     io.emit('changeUserList', userData)
 }
 
-http.listen(5000, () => {
+http.listen(80, () => {
     console.log('监听5000端口')
 })
 
